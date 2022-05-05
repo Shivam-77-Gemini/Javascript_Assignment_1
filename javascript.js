@@ -7,6 +7,7 @@
   h1.style.backgroundColor="green";
   h1.style.marginTop="60px"
   h1.style.marginBottom="20px";
+  naya.classList.add("bg-dark");
 
   const newNode=document.createTextNode("Table");
    h1.append(newNode);//Header I have created
